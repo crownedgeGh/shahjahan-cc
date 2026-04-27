@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import heroImage from './public/heroSh.png';
 import {
   Phone,
   MapPin,
@@ -105,7 +106,7 @@ const App = () => {
 
       <header className="relative bg-blue-900 text-white overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img src="src/public/heroSh.png" alt="Shahjahan Choice Center" className="w-full h-full object-cover" />
+          <img src={heroImage} alt="Shahjahan Choice Center" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-black/40"></div>
           <div className="absolute inset-0" style={{ backgroundImage: 'radial-gradient(circle, #fff 1px, transparent 1px)', backgroundSize: '40px 40px', opacity: 0.06 }}></div>
         </div>
